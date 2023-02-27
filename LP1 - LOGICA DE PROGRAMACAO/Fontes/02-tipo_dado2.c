@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include <stdio.h> //standard input-output (biblioteca padrão de entrada/saída)
+#include <stdlib.h> //standard library (biblioteca de propósito geral
+
 
 //retorno  nome  parametros
 int main ( )

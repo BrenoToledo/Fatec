@@ -10,29 +10,29 @@ int main() {
     char operacao;
 
     // Obtém a linha que será calculada
-    printf("Informe a linha que deseja calcular: ");
+    //printf("Informe a linha que deseja calcular: ");
     scanf("%i", &linha);
 
     // Obtém a operação de cálculo
     do {
-        printf("Informe o calculo desejado:\n M -> Media | S -> Soma: ");
+        //printf("Informe o calculo desejado:\n M -> Media | S -> Soma: ");
         scanf(" %c", &operacao);
         
         if (operacao == 77 || operacao == 83) {
-            printf("\n %c Entrou na logica \n",operacao);
+            //printf("\n %c Entrou na logica \n",operacao);
             break;
         } 
-        else {
-            printf(" \n\n%c nao entrou na logica\n\n",operacao);
+        //else {
+            //printf(" \n\n%c nao entrou na logica\n\n",operacao);
             // Mensagem para o usuário - Caractere Inválido
-            printf(" \n\n%c NAO E UM CARACTERE VALIDO,\n M ou S sao permitidos apenas! \n\n",operacao);   
-        }
+            //printf(" \n\n%c NAO E UM CARACTERE VALIDO,\n M ou S sao permitidos apenas! \n\n",operacao);   
+        //}
     } while (1);
 
     // Obtém os valores da tabela
     for (int l=0; l<=11; l++) {
         for (int c=0; c<=11; c++) {
-            printf("\n%d - Linha: %d | Coluna: %d -> Informe o valor: ", count, l, c);
+            //printf("\n%d - Linha: %d | Coluna: %d -> Informe o valor: ", count, l, c);
             scanf("%f", &tabela[count]);
             count++;
         }
@@ -55,3 +55,4 @@ int main() {
 }
 
 // Development: Breno Toledo
+// github.com/BrenoToledo
